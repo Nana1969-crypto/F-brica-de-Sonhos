@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Orquestra Jovem da Fábrica de Sonhos — Onde os sonhos ganham som</title>
+  <meta name="description" content="Um movimento cultural que forma adolescentes através da excelência artística. Nascida na Zona Norte de Porto Alegre. Onde os sonhos ganham som." />
+  <meta name="theme-color" content="#2B2623" />
+  <meta name="author" content="Orquestra Jovem da Fábrica de Sonhos" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Orquestra Jovem da Fábrica de Sonhos" />
+  <meta property="og:title" content="Orquestra Jovem da Fábrica de Sonhos" />
+  <meta property="og:description" content="Onde os sonhos ganham som. Um movimento cultural que forma adolescentes através da música." />
+  <meta property="og:locale" content="pt_BR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Orquestra Jovem da Fábrica de Sonhos" />
+  <meta name="twitter:description" content="Onde os sonhos ganham som." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/main.css" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PerformingGroup",
+    "name": "Orquestra Jovem da Fábrica de Sonhos",
+    "alternateName": "Orquestra Jovem — Fábrica de Sonhos",
+    "description": "Movimento cultural que forma adolescentes através da excelência artística, nascido na Zona Norte de Porto Alegre, dentro do Instituto BZN.",
+    "foundingLocation": {
+      "@type": "Place",
+      "name": "Zona Norte, Porto Alegre, Rio Grande do Sul, Brasil"
+    },
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "Instituto BZN"
+    },
+    "slogan": "Onde os sonhos ganham som"
+  }
+  </script>
+</head>
+
+<body class="is-loading">
+
+  <!-- ============================================================= -->
+  <!-- PRELOADER — a cortina do teatro                               -->
+  <!-- ============================================================= -->
+  <div class="curtain" id="curtain" aria-hidden="true">
+    <div class="curtain__inner">
+      <span class="curtain__mark">O<span class="curtain__amp">J</span></span>
+      <span class="curtain__line" aria-hidden="true"></span>
+      <span class="curtain__word">afinando</span>
+    </div>
+  </div>
+
+  <a class="skip-link" href="#manifesto">Ir para o conteúdo</a>
+
+  <!-- ============================================================= -->
+  <!-- HEADER                                                        -->
+  <!-- ============================================================= -->
+  <header class="site-header" id="header" data-state="top">
+    <div class="site-header__bar">
+      <a class="brand" href="#top" aria-label="Orquestra Jovem da Fábrica de Sonhos — início">
+        <span class="brand__mark" aria-hidden="true">O<span>J</span></span>
+        <span class="brand__name">
+          <span class="brand__name-top">Orquestra Jovem</span>
+          <span class="brand__name-sub">Fábrica de Sonhos</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a href="#manifesto">A Orquestra</a></li>
+          <li><a href="#temporada">Temporada</a></li>
+          <li><a href="#concertos">Concertos</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#diario">Diário</a></li>
+          <li><a href="#talentos">Jovens Talentos</a></li>
+          <li><a href="#transparencia">Transparência</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a href="#apoie" class="btn btn--ghost nav__cta">Apoie</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Abrir menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav aria-label="Navegação móvel">
+      <ul>
+        <li><a href="#manifesto">A Orquestra</a></li>
+        <li><a href="#temporada">Temporada</a></li>
+        <li><a href="#concertos">Concertos</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#diario">Diário da Orquestra</a></li>
+        <li><a href="#talentos">Jovens Talentos</a></li>
+        <li><a href="#apoie">Apoie</a></li>
+        <li><a href="#transparencia">Transparência</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main id="top">
+
+    <!-- ============================================================= -->
+    <!-- HERO — abertura cinematográfica, 5 atos                       -->
+    <!-- ============================================================= -->
+    <section class="hero" id="hero" aria-label="Apresentação">
+      <div class="hero__stage">
+
+        <!-- Slide 1 -->
+        <article class="hero__slide is-active" data-photo="ensaio-luz-quente">
+          <div class="hero__scrim"></div>
+          <div class="hero__content">
+            <p class="overline overline--light">Ato I</p>
+            <h1 class="hero__title">Toda grande história<br />começa com um sonho.</h1>
+            <p class="hero__lede">E todo sonho, um dia, ganha som.</p>
+          </div>
+        </article>
+
+        <!-- Slide 2 -->
+        <article class="hero__slide" data-photo="palco-temporada">
+          <div class="hero__scrim"></div>
+          <div class="hero__content">
+            <p class="overline overline--light">Ato II · Temporada</p>
+            <h1 class="hero__title">Uma temporada<br />construída para emocionar.</h1>
+            <p class="hero__lede">Concertos que atravessam a cidade e ficam.</p>
+            <a href="#temporada" class="btn btn--light">Ver a temporada</a>
+          </div>
+        </article>
+
+        <!-- Slide 3 -->
+        <article class="hero__slide" data-photo="audicao-concentracao">
+          <div class="hero__scrim"></div>
+          <div class="hero__content">
+            <p class="overline overline--light">Ato III · Audições</p>
+            <h1 class="hero__title">O próximo talento<br />pode ser você.</h1>
+            <p class="hero__lede">Audições abertas a cada temporada. Nenhum bairro fica de fora.</p>
+            <a href="#talentos" class="btn btn--light">Como participar</a>
+          </div>
+        </article>
+
+        <!-- Slide 4 -->
+        <article class="hero__slide" data-photo="impacto-comunidade">
+          <div class="hero__scrim"></div>
+          <div class="hero__content">
+            <p class="overline overline--light">Ato IV · Impacto</p>
+            <h1 class="hero__title">Antes de formar músicos,<br />formamos pessoas.</h1>
+            <p class="hero__lede">A música é o caminho. Os adolescentes são o centro.</p>
+            <a href="#transparencia" class="btn btn--light">Nosso impacto</a>
+          </div>
+        </article>
+
+        <!-- Slide 5 -->
+        <article class="hero__slide" data-photo="apoie-maos">
+          <div class="hero__scrim"></div>
+          <div class="hero__content">
+            <p class="overline overline--light">Ato V · Apoie</p>
+            <h1 class="hero__title">Faça parte<br />desse movimento.</h1>
+            <p class="hero__lede">Cada apoio se transforma em futuro. E em som.</p>
+            <a href="#apoie" class="btn btn--light">Quero apoiar</a>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- controls -->
+      <div class="hero__controls" role="tablist" aria-label="Selecionar cena">
+        <button class="hero__dot is-active" data-slide="0" role="tab" aria-selected="true" aria-label="Cena 1"><i></i></button>
+        <button class="hero__dot" data-slide="1" role="tab" aria-selected="false" aria-label="Cena 2"><i></i></button>
+        <button class="hero__dot" data-slide="2" role="tab" aria-selected="false" aria-label="Cena 3"><i></i></button>
+        <button class="hero__dot" data-slide="3" role="tab" aria-selected="false" aria-label="Cena 4"><i></i></button>
+        <button class="hero__dot" data-slide="4" role="tab" aria-selected="false" aria-label="Cena 5"><i></i></button>
+      </div>
+
+      <a href="#manifesto" class="hero__scroll" aria-label="Rolar para descobrir">
+        <span>descubra</span>
+        <span class="hero__scroll-line" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- I · MANIFESTO                                                 -->
+    <!-- ============================================================= -->
+    <section class="manifesto" id="manifesto">
+      <div class="wrap">
+        <p class="overline reveal">Onde os sonhos ganham som</p>
+        <h2 class="manifesto__text reveal">
+          Não ensinamos apenas música.
+          <em>Construímos futuros</em> através dela.
+        </h2>
+        <div class="manifesto__foot reveal">
+          <p>
+            A Orquestra Jovem da Fábrica de Sonhos é um movimento cultural que forma
+            adolescentes através da excelência artística. Acreditamos que o talento
+            pode nascer em qualquer bairro — e que subir ao palco muda vidas.
+          </p>
+          <a href="#orquestra" class="link-arrow">Conheça o movimento</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- II · A ORQUESTRA                                              -->
+    <!-- ============================================================= -->
+    <section class="feature feature--dark" id="orquestra">
+      <div class="wrap feature__grid">
+        <div class="feature__media reveal">
+          <figure class="plate plate--portrait" data-photo="retrato-ensaio">
+            <figcaption>Ensaio geral. Silêncio antes do primeiro acorde.</figcaption>
+          </figure>
+        </div>
+        <div class="feature__body">
+          <p class="overline overline--bronze reveal">I · A Orquestra</p>
+          <h2 class="section-title reveal">Uma instituição cultural<br />contemporânea.</h2>
+          <p class="lede reveal">
+            Nascemos na Zona Norte de Porto Alegre, dentro do Instituto BZN, com
+            identidade própria. Não somos uma escola. Não somos um curso. Não somos
+            um projeto assistencialista.
+          </p>
+          <p class="reveal">
+            Somos um movimento que transforma adolescentes através da excelência
+            artística — onde inclusão e excelência caminham juntas, lado a lado, no
+            mesmo palco.
+          </p>
+          <ul class="pillars reveal">
+            <li><span>01</span> O adolescente no centro de cada decisão.</li>
+            <li><span>02</span> Excelência artística como método, não como vitrine.</li>
+            <li><span>03</span> O palco como sala de aula de coragem.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- III · TEMPORADA                                              -->
+    <!-- ============================================================= -->
+    <section class="season" id="temporada">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="overline overline--bronze">II · Temporada 2026</p>
+          <h2 class="section-title">Próximos concertos.</h2>
+          <p class="section-head__note">
+            Uma temporada pensada como uma narrativa. Cada concerto, um capítulo.
+          </p>
+        </header>
+
+        <ol class="season__list" id="concertos">
+          <li class="season__item reveal">
+            <div class="season__date"><span class="season__day">14</span><span class="season__mon">Mar</span></div>
+            <div class="season__info">
+              <h3>Abertura de Temporada · <em>Primeiro Sopro</em></h3>
+              <p>Um programa que celebra o começo. Obras de Villa-Lobos e novas composições dos próprios jovens.</p>
+            </div>
+            <div class="season__place">
+              <span>Theatro São Pedro</span>
+              <span class="season__time">20h</span>
+            </div>
+            <a href="#contato" class="season__cta" aria-label="Reservar para Abertura de Temporada">Reservar</a>
+          </li>
+
+          <li class="season__item reveal">
+            <div class="season__date"><span class="season__day">09</span><span class="season__mon">Mai</span></div>
+            <div class="season__info">
+              <h3>Concerto de Câmara · <em>Madeira e Luz</em></h3>
+              <p>Uma noite íntima, de poucos instrumentos e muita presença. A orquestra ao alcance da mão.</p>
+            </div>
+            <div class="season__place">
+              <span>Sala BZN · Zona Norte</span>
+              <span class="season__time">19h30</span>
+            </div>
+            <a href="#contato" class="season__cta" aria-label="Reservar para Concerto de Câmara">Reservar</a>
+          </li>
+
+          <li class="season__item reveal">
+            <div class="season__date"><span class="season__day">22</span><span class="season__mon">Ago</span></div>
+            <div class="season__info">
+              <h3>Concerto de Inverno · <em>Cidade que Ouve</em></h3>
+              <p>A orquestra ocupa a cidade. Um encontro entre o erudito e as ruas que formaram cada músico.</p>
+            </div>
+            <div class="season__place">
+              <span>Usina do Gasômetro</span>
+              <span class="season__time">18h</span>
+            </div>
+            <a href="#contato" class="season__cta" aria-label="Reservar para Concerto de Inverno">Reservar</a>
+          </li>
+
+          <li class="season__item reveal">
+            <div class="season__date"><span class="season__day">05</span><span class="season__mon">Dez</span></div>
+            <div class="season__info">
+              <h3>Concerto de Encerramento · <em>Onde os Sonhos Ganham Som</em></h3>
+              <p>O ápice da temporada. Toda a orquestra reunida para provar do que um sonho é capaz.</p>
+            </div>
+            <div class="season__place">
+              <span>Auditório Araújo Vianna</span>
+              <span class="season__time">20h</span>
+            </div>
+            <a href="#contato" class="season__cta" aria-label="Reservar para Concerto de Encerramento">Reservar</a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- IV · VÍDEO INSTITUCIONAL                                      -->
+    <!-- ============================================================= -->
+    <section class="film" id="video" aria-label="Vídeo institucional">
+      <figure class="film__frame" data-photo="video-institucional">
+        <div class="film__scrim"></div>
+        <div class="wrap film__content reveal">
+          <p class="overline overline--light">Vídeo institucional</p>
+          <h2 class="film__title">Veja o silêncio<br />virar música.</h2>
+          <button class="film__play" aria-label="Assistir ao vídeo institucional">
+            <span class="film__play-icon" aria-hidden="true"></span>
+            <span class="film__play-label">Assistir · 2 min</span>
+          </button>
+        </div>
+      </figure>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- V · JOVENS TALENTOS                                           -->
+    <!-- ============================================================= -->
+    <section class="talents" id="talentos">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="overline overline--bronze">III · Jovens Talentos</p>
+          <h2 class="section-title">O centro de tudo.</h2>
+          <p class="section-head__note">
+            Antes dos instrumentos, as pessoas. Conheça alguns dos adolescentes que
+            fazem o movimento existir.
+          </p>
+        </header>
+
+        <div class="talents__grid">
+          <figure class="talent reveal" data-photo="talento-01">
+            <div class="talent__photo"></div>
+            <figcaption>
+              <span class="talent__name">Helena, 15</span>
+              <span class="talent__role">Violino · desde 2024</span>
+              <p>"Aqui eu descobri que era capaz de coisas que nem imaginava."</p>
+            </figcaption>
+          </figure>
+
+          <figure class="talent reveal" data-photo="talento-02">
+            <div class="talent__photo"></div>
+            <figcaption>
+              <span class="talent__name">Iuri, 17</span>
+              <span class="talent__role">Violoncelo · desde 2022</span>
+              <p>"O palco me ensinou a olhar as pessoas nos olhos."</p>
+            </figcaption>
+          </figure>
+
+          <figure class="talent reveal" data-photo="talento-03">
+            <div class="talent__photo"></div>
+            <figcaption>
+              <span class="talent__name">Sofia, 16</span>
+              <span class="talent__role">Clarinete · desde 2023</span>
+              <p>"Meu bairro cabe inteiro dentro da minha música."</p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="talents__cta reveal">
+          <p>As audições da próxima temporada estão abertas.</p>
+          <a href="#contato" class="btn btn--dark">Inscreva um adolescente</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- VI · GALERIA                                                  -->
+    <!-- ============================================================= -->
+    <section class="gallery" id="galeria">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="overline overline--bronze">IV · Galeria</p>
+          <h2 class="section-title">Momentos reais.</h2>
+        </header>
+      </div>
+
+      <div class="gallery__mosaic">
+        <figure class="gallery__item gallery__item--tall reveal" data-photo="gal-01">
+          <figcaption>Concentração, segundos antes de entrar.</figcaption>
+        </figure>
+        <figure class="gallery__item reveal" data-photo="gal-02">
+          <figcaption>As mãos aprendem antes das palavras.</figcaption>
+        </figure>
+        <figure class="gallery__item reveal" data-photo="gal-03">
+          <figcaption>Ensaio de sábado, luz quente.</figcaption>
+        </figure>
+        <figure class="gallery__item gallery__item--wide reveal" data-photo="gal-04">
+          <figcaption>A orquestra inteira respira junta.</figcaption>
+        </figure>
+        <figure class="gallery__item reveal" data-photo="gal-05">
+          <figcaption>Um olhar que ainda não sabe do próprio talento.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- VII · DEPOIMENTOS                                             -->
+    <!-- ============================================================= -->
+    <section class="quotes" aria-label="Depoimentos">
+      <div class="wrap">
+        <blockquote class="quotes__item reveal">
+          <p>"Não é sobre formar músicos. É sobre devolver a esses adolescentes a
+          certeza de que o futuro pertence a eles."</p>
+          <footer><span>Maestrina Responsável</span> · Direção Artística</footer>
+        </blockquote>
+        <blockquote class="quotes__item reveal">
+          <p>"Minha filha entrou tímida e saiu líder. A música fez o que nenhuma
+          outra coisa tinha conseguido."</p>
+          <footer><span>Cláudia M.</span> · Mãe de integrante</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- VIII · DIÁRIO DA ORQUESTRA                                    -->
+    <!-- ============================================================= -->
+    <section class="journal" id="diario">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="overline overline--bronze">V · Diário da Orquestra</p>
+          <h2 class="section-title">Bastidores de um movimento vivo.</h2>
+        </header>
+
+        <div class="journal__grid">
+          <article class="journal__post reveal" data-photo="diario-01">
+            <div class="journal__thumb"></div>
+            <div class="journal__meta">
+              <span class="journal__tag">Ensaios</span>
+              <time datetime="2026-07-10">10 Jul 2026</time>
+            </div>
+            <h3>O dia em que a orquestra ensaiou na chuva</h3>
+            <p>Um ensaio que virou memória. O que aconteceu quando o som encontrou a cidade.</p>
+            <a href="#diario" class="link-arrow">Ler</a>
+          </article>
+
+          <article class="journal__post reveal" data-photo="diario-02">
+            <div class="journal__thumb"></div>
+            <div class="journal__meta">
+              <span class="journal__tag">Audições</span>
+              <time datetime="2026-06-02">02 Jun 2026</time>
+            </div>
+            <h3>Como escolhemos (e por que ninguém sai igual)</h3>
+            <p>Nos bastidores das audições — onde coragem conta tanto quanto técnica.</p>
+            <a href="#diario" class="link-arrow">Ler</a>
+          </article>
+
+          <article class="journal__post reveal" data-photo="diario-03">
+            <div class="journal__thumb"></div>
+            <div class="journal__meta">
+              <span class="journal__tag">Comunidade</span>
+              <time datetime="2026-05-18">18 Mai 2026</time>
+            </div>
+            <h3>A Zona Norte tem uma orquestra. E ela é sua.</h3>
+            <p>Sobre pertencimento, território e o som que nasce de onde ninguém esperava.</p>
+            <a href="#diario" class="link-arrow">Ler</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- IX · TRANSPARÊNCIA & IMPACTO                                  -->
+    <!-- ============================================================= -->
+    <section class="impact" id="transparencia">
+      <div class="wrap">
+        <header class="section-head reveal">
+          <p class="overline overline--bronze">VI · Impacto & Transparência</p>
+          <h2 class="section-title">Contas claras.<br />Futuros construídos.</h2>
+        </header>
+
+        <div class="impact__stats">
+          <div class="stat reveal">
+            <span class="stat__num" data-count="120">0</span>
+            <span class="stat__label">adolescentes formados</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__num" data-count="8">0</span>
+            <span class="stat__label">bairros alcançados</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__num" data-count="40">0</span>
+            <span class="stat__label">concertos realizados</span>
+          </div>
+          <div class="stat reveal">
+            <span class="stat__num" data-count="95" data-suffix="%">0</span>
+            <span class="stat__label">seguem estudando música</span>
+          </div>
+        </div>
+
+        <div class="impact__transparency reveal">
+          <p>
+            Acreditamos que confiança se constrói com clareza. Nossos relatórios
+            anuais, prestação de contas e demonstrativos financeiros estão sempre
+            disponíveis para famílias, parceiros e para o poder público.
+          </p>
+          <a href="#contato" class="link-arrow">Baixar relatório anual</a>
+        </div>
+
+        <div class="partners reveal">
+          <p class="partners__label">Parceiros & Patrocinadores</p>
+          <ul class="partners__list">
+            <li>Instituto BZN</li>
+            <li>Secretaria de Cultura</li>
+            <li>Empresa Parceira</li>
+            <li>Fundação Cultural</li>
+            <li>Patrocinador Master</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- X · APOIE                                                     -->
+    <!-- ============================================================= -->
+    <section class="support" id="apoie" data-photo="apoie-fundo">
+      <div class="support__scrim"></div>
+      <div class="wrap support__content reveal">
+        <p class="overline overline--light">Apoie o movimento</p>
+        <h2 class="support__title">Cada apoio vira futuro.<br />E vira som.</h2>
+        <p class="support__lede">
+          Você pode patrocinar uma cadeira da orquestra, apadrinhar um instrumento
+          ou doar de forma recorrente. Há um lugar para cada pessoa e para cada
+          empresa nesse palco.
+        </p>
+        <div class="support__cards">
+          <div class="support__card">
+            <h3>Pessoas</h3>
+            <p>Doe uma vez ou torne-se um doador recorrente e acompanhe de perto quem você ajuda a formar.</p>
+            <a href="#contato" class="btn btn--light">Quero doar</a>
+          </div>
+          <div class="support__card support__card--feature">
+            <h3>Empresas</h3>
+            <p>Associe sua marca à excelência artística e ao impacto social. Leis de incentivo e planos sob medida.</p>
+            <a href="#contato" class="btn btn--light">Ser patrocinador</a>
+          </div>
+          <div class="support__card">
+            <h3>Instrumentos</h3>
+            <p>Apadrinhe um instrumento e coloque música nas mãos de um adolescente.</p>
+            <a href="#contato" class="btn btn--light">Apadrinhar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- XI · CONTATO                                                  -->
+    <!-- ============================================================= -->
+    <section class="contact" id="contato">
+      <div class="wrap contact__grid">
+        <div class="contact__intro reveal">
+          <p class="overline overline--bronze">VII · Contato</p>
+          <h2 class="section-title">Vamos conversar.</h2>
+          <p class="lede">
+            Para audições, parcerias, imprensa ou apenas para conhecer de perto —
+            a porta do teatro está aberta.
+          </p>
+          <ul class="contact__details">
+            <li><span>Endereço</span> Instituto BZN · Zona Norte, Porto Alegre — RS</li>
+            <li><span>E-mail</span> <a href="mailto:contato@orquestrajovem.org">contato@orquestrajovem.org</a></li>
+            <li><span>Telefone</span> <a href="tel:+555100000000">+55 51 0000-0000</a></li>
+          </ul>
+        </div>
+
+        <form class="contact__form reveal" id="contactForm" novalidate>
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" autocomplete="name" required />
+          </div>
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" autocomplete="email" required />
+          </div>
+          <div class="field">
+            <label for="assunto">Assunto</label>
+            <select id="assunto" name="assunto">
+              <option value="audicoes">Audições</option>
+              <option value="patrocinio">Patrocínio / Empresa</option>
+              <option value="doacao">Doação</option>
+              <option value="imprensa">Imprensa</option>
+              <option value="outro">Outro</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--dark btn--full">Enviar</button>
+          <p class="contact__status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================= -->
+  <!-- FOOTER                                                        -->
+  <!-- ============================================================= -->
+  <footer class="site-footer">
+    <div class="wrap site-footer__grid">
+      <div class="site-footer__brand">
+        <span class="brand__mark brand__mark--footer" aria-hidden="true">O<span>J</span></span>
+        <p class="site-footer__slogan">Onde os sonhos ganham som.</p>
+        <p class="site-footer__origin">Nascida na Zona Norte de Porto Alegre.</p>
+      </div>
+
+      <nav class="site-footer__nav" aria-label="Rodapé">
+        <ul>
+          <li><a href="#manifesto">A Orquestra</a></li>
+          <li><a href="#temporada">Temporada</a></li>
+          <li><a href="#concertos">Concertos</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#diario">Diário da Orquestra</a></li>
+        </ul>
+        <ul>
+          <li><a href="#talentos">Jovens Talentos</a></li>
+          <li><a href="#apoie">Apoie</a></li>
+          <li><a href="#transparencia">Transparência</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="site-footer__social">
+        <p class="overline overline--bronze">Acompanhe</p>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">YouTube</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="wrap site-footer__base">
+      <p>© 2026 Orquestra Jovem da Fábrica de Sonhos · Instituto BZN</p>
+      <p>Um movimento cultural.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
